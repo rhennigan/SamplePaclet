@@ -12,7 +12,7 @@ Notebook[
    CellGroupData[
     {
      Cell[
-      "SamplePublisher/SamplePaclet",
+      "SamplePublisher/SamplePaclet2",
       "Title",
       Deletable -> False,
       CellTags -> {"Name", "TemplateCell", "Title"},
@@ -901,9 +901,9 @@ Notebook[
                  TagBox[
                   TemplateBox[
                    {
-                    "\"SamplePaclet.wl\"",
+                    "\"SamplePaclet2.wl\"",
                     FileNameJoin[
-                     {NotebookDirectory[], "Kernel", "SamplePaclet.wl"}
+                     {NotebookDirectory[], "Kernel", "SamplePaclet2.wl"}
                     ]
                    },
                    "FileManagerFileOpenerTemplate"
@@ -918,7 +918,7 @@ Notebook[
                   ]
                  ],
                  FileNameJoin[
-                  {NotebookDirectory[], "Kernel", "SamplePaclet.wl"}
+                  {NotebookDirectory[], "Kernel", "SamplePaclet2.wl"}
                  ],
                  BoxID -> "FileTreePath",
                  BaseStyle -> {"Text"}
@@ -938,10 +938,10 @@ Notebook[
                 {Inherited, Inherited}
                },
                CellTags -> {"FileManagerCell", "FileManager-PacletFiles"},
-               CellID -> 12906199
+               CellID -> 403586697
               ]
              },
-             Closed
+             Open
             ]
            ],
            Cell[
@@ -2420,7 +2420,7 @@ Notebook[
              RowBox[
               {
                RowBox[
-                {"Needs", "[", "\"SamplePublisher`SamplePaclet`\"", "]"}
+                {"Needs", "[", "\"SamplePublisher`SamplePaclet2`\"", "]"}
                ],
                ";"
               }
@@ -3004,7 +3004,7 @@ Notebook[
                 ButtonBox[
                  "AddTwo",
                  BaseStyle -> "Link",
-                 ButtonData -> "paclet:SamplePublisher/SamplePaclet/ref/AddTwo"
+                 ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddTwo"
                 ]
                ],
                "InlineFormula",
@@ -3016,7 +3016,7 @@ Notebook[
                 ButtonBox[
                  "AddOne",
                  BaseStyle -> "Link",
-                 ButtonData -> "paclet:SamplePublisher/SamplePaclet/ref/AddOne"
+                 ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddOne"
                 ]
                ],
                "InlineFormula",
@@ -3100,7 +3100,7 @@ Notebook[
                    ButtonBox[
                     "AddOne",
                     BaseStyle -> "Link",
-                    ButtonData -> "paclet:SamplePublisher/SamplePaclet/ref/AddOne"
+                    ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddOne"
                    ]
                   ],
                   "InlineFormula",
@@ -6830,7 +6830,7 @@ Notebook[
    ]
   ]
  },
- WindowTitle -> "SamplePublisher/SamplePaclet | Definition Notebook",
+ WindowTitle -> "SamplePublisher/SamplePaclet2 | Definition Notebook",
  DockedCells -> {
   Cell[
    BoxData[TemplateBox[{}, "MainGridTemplate"]],

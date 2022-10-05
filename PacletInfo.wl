@@ -1,5 +1,5 @@
 PacletObject[ <|
-    "Name"             -> "SamplePublisher/SamplePaclet",
+    "Name"             -> "SamplePublisher/SamplePaclet2",
     "Description"      -> "A complete sample Paclet",
     "Creator"          -> "Sample Author",
     "Version"          -> "1.0.0",
@@ -11,10 +11,10 @@ PacletObject[ <|
         {
             "Kernel",
             "Root"    -> "Kernel",
-            "Context" -> { "SamplePublisher`SamplePaclet`" },
+            "Context" -> { "SamplePublisher`SamplePaclet2`" },
             "Symbols" -> {
-                "SamplePublisher`SamplePaclet`AddOne",
-                "SamplePublisher`SamplePaclet`AddTwo"
+                "SamplePublisher`SamplePaclet2`AddOne",
+                "SamplePublisher`SamplePaclet2`AddTwo"
             }
         },
         {
