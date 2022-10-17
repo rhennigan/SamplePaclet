@@ -1,15 +1,10 @@
-BeginPackage["SamplePublisher`SamplePaclet2`"];
+BeginPackage[ "Wolfram`SamplePaclet`" ];
 
-(* Declare your packages public symbols here. *)
+AddTwo::usage = "AddTwo[x] adds two to x.";
 
-AddTwo;
+Begin[ "`Private`" ];
 
-Begin["`Private`"];
+AddTwo[ x_ ] := x + 2;
 
-(* Define your public and private symbols here. *)
-
-AddTwo[x_] := x + 2;
-
-End[]; (* End `Private` *)
-
-EndPackage[];
+End[ ];
+EndPackage[ ];

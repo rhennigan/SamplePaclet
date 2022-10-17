@@ -9,74 +9,13 @@
 Notebook[
  {
   Cell[
-   TextData[
-    {
-     "New in: ",
-     Cell["", "HistoryData", CellTags -> "New"],
-     " | Modified in: ",
-     Cell[" ", "HistoryData", CellTags -> "Modified"],
-     " | Obsolete in: ",
-     Cell[" ", "HistoryData", CellTags -> "Obsolete"],
-     " | Excised in: ",
-     Cell[" ", "HistoryData", CellTags -> "Excised"]
-    }
-   ],
-   "History",
-   CellID -> 151537145
-  ],
-  Cell[
    CellGroupData[
     {
+     Cell["Arithmetic", "Title", CellID -> 224429298],
      Cell[
-      "Categorization",
-      "CategorizationSection",
-      CellID -> 720958107
-     ],
-     Cell[
-      "Tech Note",
-      "Categorization",
-      CellLabel -> "Entity Type",
-      CellID -> 634641903
-     ],
-     Cell[
-      "SamplePublisher/SamplePaclet2",
-      "Categorization",
-      CellLabel -> "Paclet Name",
-      CellID -> 162634724
-     ],
-     Cell[
-      "SamplePublisher`SamplePaclet2`",
-      "Categorization",
-      CellLabel -> "Context",
-      CellID -> 107266034
-     ],
-     Cell[
-      "SamplePublisher/SamplePaclet2/tutorial/Arithmetic",
-      "Categorization",
-      CellLabel -> "URI",
-      CellID -> 323052657
-     ]
-    },
-    Open
-   ]
-  ],
-  Cell[
-   CellGroupData[
-    {
-     Cell["Keywords", "KeywordsSection", CellID -> 312834638],
-     Cell["XXXX", "Keywords", CellID -> 89160598]
-    },
-    Closed
-   ]
-  ],
-  Cell[
-   CellGroupData[
-    {
-     Cell["Arithmetic", "Title", CellID -> 230029336],
-     Cell[
-      "Arithmetic is hard. This tutorial does not address that in any way. If anything, this will make it harder. SamplePublisher/SamplePaclet2 gives you all the functions you need to do harder-than-necessary arithmetic.",
+      "Arithmetic is hard. This tutorial does not address that in any way. If anything, this will make it harder. Wolfram/SamplePaclet gives you all the functions you need to do harder-than-necessary arithmetic.",
       "Text",
-      CellID -> 3438887
+      CellID -> 737727395
      ],
      Cell[
       BoxData[
@@ -86,7 +25,7 @@ Notebook[
           ButtonBox[
            "AddOne",
            BaseStyle -> "Link",
-           ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddOne"
+           ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddOne"
           ],
           Cell["add one to something", "TableText"]
          },
@@ -94,7 +33,7 @@ Notebook[
           ButtonBox[
            "AddTwo",
            BaseStyle -> "Link",
-           ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddTwo"
+           ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddTwo"
           ],
           Cell["add two to something", "TableText"]
          }
@@ -102,34 +41,17 @@ Notebook[
        ]
       ],
       "DefinitionBox",
-      CellID -> 27794316
+      CellID -> 117296717
      ],
      Cell[
       "Two uninteresting functions (one is less interesting than the other).",
       "Caption",
-      CellID -> 261768492
+      CellID -> 160655908
      ],
      Cell[
       CellGroupData[
        {
-        Cell["Natural numbers", "Subsection", CellID -> 440848074],
-        Cell[
-         BoxData[RowBox[{RowBox[{"$Line", "=", "0"}], ";"}]],
-         "Input",
-         "FutureExample",
-         CellDingbat ->
-          Cell[
-           BoxData[
-            TooltipBox[
-             Cell["rhennigan      ", "TentativeID"],
-             "2022-04-08"
-            ]
-           ],
-           "TentativeWrapper"
-          ],
-         CellLabel -> "In[6]:=",
-         CellID -> 301997458
-        ],
+        Cell["Natural numbers", "Subsection", CellID -> 634194733],
         Cell[
          CellGroupData[
           {
@@ -141,8 +63,7 @@ Notebook[
                BoxData[
                 SuperscriptBox[StyleBox["n", "TI"], StyleBox["th", "TI"]]
                ],
-               "InlineFormula",
-               FormatType -> StandardForm
+               "InlineFormula"
               ],
               " natural number:"
              }
@@ -287,7 +208,7 @@ Notebook[
                 ButtonBox[
                  "AddOne",
                  BaseStyle -> "Link",
-                 ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddOne"
+                 ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddOne"
                 ]
                ],
                "InlineFormula"
@@ -524,7 +445,7 @@ Notebook[
                 ButtonBox[
                  "AddOne",
                  BaseStyle -> "Link",
-                 ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddOne"
+                 ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddOne"
                 ]
                ],
                "InlineFormula"
@@ -661,18 +582,81 @@ Notebook[
         Cell[
          "Related Guides",
          "TutorialMoreAboutSection",
-         CellID -> 442209837
+         CellID -> 252557844
         ],
         Cell[
          TextData[
           ButtonBox[
            "Sample Guide",
            BaseStyle -> "Link",
-           ButtonData -> "paclet:SamplePublisher/SamplePaclet2/guide/SampleGuide"
+           ButtonData -> "paclet:Wolfram/SamplePaclet/guide/SampleGuide"
           ]
          ],
          "TutorialMoreAbout",
-         CellID -> 35572552
+         CellID -> 453180757
+        ]
+       },
+       Open
+      ]
+     ],
+     Cell[
+      "Related Tech Notes",
+      "RelatedTutorialsSection",
+      CellID -> 640189875
+     ]
+    },
+    Open
+   ]
+  ],
+  Cell[
+   CellGroupData[
+    {
+     Cell["Metadata", "MetadataSection", CellID -> 652132898],
+     Cell[
+      TextData[
+       {
+        "New in: ",
+        Cell["", "HistoryData", CellTags -> "New"],
+        " | Modified in: ",
+        Cell[" ", "HistoryData", CellTags -> "Modified"],
+        " | Obsolete in: ",
+        Cell[" ", "HistoryData", CellTags -> "Obsolete"]
+       }
+      ],
+      "History",
+      CellID -> 350773382
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell[
+         "Categorization",
+         "CategorizationSection",
+         CellID -> 395145649
+        ],
+        Cell[
+         "Tech Note",
+         "Categorization",
+         CellLabel -> "Entity Type",
+         CellID -> 220419646
+        ],
+        Cell[
+         "Wolfram/SamplePaclet",
+         "Categorization",
+         CellLabel -> "Paclet Name",
+         CellID -> 352802718
+        ],
+        Cell[
+         "Wolfram`SamplePaclet`",
+         "Categorization",
+         CellLabel -> "Context",
+         CellID -> 563025108
+        ],
+        Cell[
+         "Wolfram/SamplePaclet/tutorial/Arithmetic",
+         "Categorization",
+         CellLabel -> "URI",
+         CellID -> 461293820
         ]
        },
        Open
@@ -681,14 +665,10 @@ Notebook[
      Cell[
       CellGroupData[
        {
-        Cell[
-         "Related Tech Notes",
-         "RelatedTutorialsSection",
-         CellID -> 26507238
-        ],
-        Cell["XXXX", "RelatedTutorials", CellID -> 20645852]
+        Cell["Keywords", "KeywordsSection", CellID -> 325948267],
+        Cell["XXXX", "Keywords", CellID -> 7287807]
        },
-       Open
+       Closed
       ]
      ]
     },
@@ -698,23 +678,25 @@ Notebook[
  },
  WindowStatusArea -> Automatic,
  TaggingRules -> {
+  "WelcomeScreenSettings" -> {"FEStarting" -> False},
   "InformationPopupMenuItemAdded" -> True,
+  "Paclet" -> "Wolfram/SamplePaclet",
   "NotebookIndexQ" -> True,
   "NotebookLastIndexed" ->
    DateObject[
-    {2022, 4, 8, 12, 45, 31.917},
+    {2022, 10, 16, 13, 14, 23.358},
     "Instant",
     "Gregorian",
     -4.0
    ],
-  "NotebookUUID" -> "4e691753-3ac5-44c6-aa24-ac9453b87583"
+  "NotebookUUID" -> "6ce8c4f9-215e-4714-810f-1eac404c105b"
  },
- FrontEndVersion -> "13.0 for Microsoft Windows (64-bit) (January 26, 2022)",
+ FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
  StyleDefinitions ->
   FrontEnd`FileName[
    {"Wolfram"},
    "TechNotePageStylesExt.nb",
    CharacterEncoding -> "UTF-8"
   ],
- ExpressionUUID -> "4e691753-3ac5-44c6-aa24-ac9453b87583"
+ ExpressionUUID -> "6ce8c4f9-215e-4714-810f-1eac404c105b"
 ]

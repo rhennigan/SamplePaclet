@@ -1,20 +1,20 @@
 PacletObject[ <|
-    "Name"             -> "SamplePublisher/SamplePaclet2",
-    "Description"      -> "A complete sample Paclet",
-    "Creator"          -> "Sample Author",
+    "Name"             -> "Wolfram/SamplePaclet",
+    "Description"      -> "A sample paclet used to demonstrate basic CI/CD workflows at the 2022 Wolfram Technology Conference",
+    "Creator"          -> "Richard Hennigan (Wolfram Research)",
     "Version"          -> "1.0.0",
     "WolframVersion"   -> "13.0+",
     "License"          -> "MIT",
-    "PublisherID"      -> "SamplePublisher",
-    "SourceControlURL" -> "https://github.com/WolframResearch/PacletCICD-Examples-Sample",
+    "PublisherID"      -> "Wolfram",
+    "SourceControlURL" -> "https://github.com/rhennigan/SamplePaclet",
     "Extensions"       -> {
         {
             "Kernel",
             "Root"    -> "Kernel",
-            "Context" -> { "SamplePublisher`SamplePaclet2`" },
+            "Context" -> { "Wolfram`SamplePaclet`" },
             "Symbols" -> {
-                "SamplePublisher`SamplePaclet2`AddOne",
-                "SamplePublisher`SamplePaclet2`AddTwo"
+                "Wolfram`SamplePaclet`AddOne",
+                "Wolfram`SamplePaclet`AddTwo"
             }
         },
         {

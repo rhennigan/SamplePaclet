@@ -1,7 +1,27 @@
 VerificationTest[
-    Needs[ "SamplePublisher`SamplePaclet2`" ],
+    $pacletDir = DirectoryName[ $TestFileName, 2 ],
+    _? DirectoryQ,
+    SameTest -> MatchQ,
+    TestID   -> "AddTwo-PacletDirectory"
+]
+
+VerificationTest[
+    PacletDirectoryLoad @ $pacletDir,
+    { ___, $pacletDir, ___ },
+    SameTest -> MatchQ,
+    TestID   -> "AddTwo-PacletDirectoryLoad"
+]
+
+VerificationTest[
+    Needs[ "Wolfram`SamplePaclet`" ],
     Null,
-    TestID -> "AddTwo-Initialization"
+    TestID -> "AddTwo-Needs"
+]
+
+VerificationTest[
+    Context @ AddTwo,
+    "Wolfram`SamplePaclet`",
+    TestID -> "AddTwo-Context"
 ]
 
 VerificationTest[

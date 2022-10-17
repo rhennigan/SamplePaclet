@@ -9,81 +9,13 @@
 Notebook[
  {
   Cell[
-   TextData[
-    {
-     "New in: ",
-     Cell["", "HistoryData", CellTags -> "New"],
-     " | Modified in: ",
-     Cell[" ", "HistoryData", CellTags -> "Modified"],
-     " | Obsolete in: ",
-     Cell[" ", "HistoryData", CellTags -> "Obsolete"],
-     " | Excised in: ",
-     Cell[" ", "HistoryData", CellTags -> "Excised"]
-    }
-   ],
-   "History",
-   CellID -> 81275805
-  ],
-  Cell[
-   "Created by: rhennigan on 04-08-2022 11:39:02",
-   "AuthorDate",
-   CellID -> 45969991
-  ],
-  Cell[
    CellGroupData[
     {
-     Cell[
-      "Categorization",
-      "CategorizationSection",
-      CellID -> 780242419
-     ],
-     Cell[
-      "Guide",
-      "Categorization",
-      CellLabel -> "Entity Type",
-      CellID -> 363220203
-     ],
-     Cell[
-      "SamplePublisher/SamplePaclet2",
-      "Categorization",
-      CellLabel -> "Paclet Name",
-      CellID -> 73239438
-     ],
-     Cell[
-      "SamplePublisher`SamplePaclet2`",
-      "Categorization",
-      CellLabel -> "Context",
-      CellID -> 356463850
-     ],
-     Cell[
-      "SamplePublisher/SamplePaclet2/guide/SampleGuide",
-      "Categorization",
-      CellLabel -> "URI",
-      CellID -> 358425830
-     ]
-    },
-    Open
-   ]
-  ],
-  Cell[
-   CellGroupData[
-    {
-     Cell["Keywords", "KeywordsSection", CellID -> 651643062],
-     Cell["sample", "Keywords", CellID -> 128733725],
-     Cell["paclet", "Keywords", CellID -> 427034233],
-     Cell["CI/CD", "Keywords", CellID -> 334428899]
-    },
-    Open
-   ]
-  ],
-  Cell[
-   CellGroupData[
-    {
-     Cell["Sample Guide", "GuideTitle", CellID -> 342685780],
+     Cell["Sample Guide", "GuideTitle", CellID -> 340746646],
      Cell[
       "This is a basic guide page.",
       "GuideAbstract",
-      CellID -> 832147479
+      CellID -> 200859952
      ]
     },
     Open
@@ -92,7 +24,7 @@ Notebook[
   Cell[
    CellGroupData[
     {
-     Cell["", "GuideFunctionsSection", CellID -> 123752921],
+     Cell["", "GuideFunctionsSection", CellID -> 1031795],
      Cell[
       TextData[
        {
@@ -101,16 +33,17 @@ Notebook[
           ButtonBox[
            "AddOne",
            BaseStyle -> "Link",
-           ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddOne"
+           ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddOne"
           ]
          ],
          "InlineGuideFunction"
         ],
-        " \[LongDash] add one to something"
+        " \[LongDash] ",
+        "add one to something"
        }
       ],
       "GuideText",
-      CellID -> 187236300
+      CellID -> 211070903
      ],
      Cell[
       TextData[
@@ -120,21 +53,22 @@ Notebook[
           ButtonBox[
            "AddTwo",
            BaseStyle -> "Link",
-           ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddTwo"
+           ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddTwo"
           ]
          ],
          "InlineGuideFunction"
         ],
-        " \[LongDash] add two to something"
+        " \[LongDash] ",
+        "add two to something"
        }
       ],
       "GuideText",
-      CellID -> 16974419
+      CellID -> 220514644
      ],
      Cell[
       CellGroupData[
        {
-        Cell["\t", "GuideDelimiter", CellID -> 285454490],
+        Cell["\t", "GuideDelimiter", CellID -> 20280992],
         Cell[
          TextData[
           {
@@ -143,7 +77,7 @@ Notebook[
              ButtonBox[
               "AddOne",
               BaseStyle -> "Link",
-              ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddOne"
+              ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddOne"
              ]
             ],
             "InlineFormula"
@@ -154,7 +88,7 @@ Notebook[
              ButtonBox[
               "AddTwo",
               BaseStyle -> "Link",
-              ButtonData -> "paclet:SamplePublisher/SamplePaclet2/ref/AddTwo"
+              ButtonData -> "paclet:Wolfram/SamplePaclet/ref/AddTwo"
              ]
             ],
             "InlineFormula"
@@ -162,7 +96,7 @@ Notebook[
           }
          ],
          "InlineGuideFunctionListing",
-         CellID -> 254962454
+         CellID -> 489764499
         ]
        },
        Open
@@ -178,37 +112,27 @@ Notebook[
      Cell[
       "Tech Notes",
       "GuideTutorialsSection",
-      CellID -> 75456993
+      CellID -> 224006967
      ],
      Cell[
       TextData[
        ButtonBox[
         "Arithmetic",
         BaseStyle -> "Link",
-        ButtonData -> "paclet:SamplePublisher/SamplePaclet2/tutorial/Arithmetic"
+        ButtonData -> "paclet:Wolfram/SamplePaclet/tutorial/Arithmetic"
        ]
       ],
       "GuideTutorial",
-      CellID -> 232893748
-     ],
-     Cell["XXXX", "GuideTutorial", CellID -> 19646819]
+      CellID -> 740957486
+     ]
     },
     Open
    ]
   ],
   Cell[
-   CellGroupData[
-    {
-     Cell[
-      "Related Guides",
-      "GuideMoreAboutSection",
-      CellID -> 441329109
-     ],
-     Cell["XXXX", "GuideMoreAbout", CellID -> 535695898],
-     Cell["XXXX", "GuideMoreAbout", CellID -> 211482343]
-    },
-    Open
-   ]
+   "Related Guides",
+   "GuideMoreAboutSection",
+   CellID -> 253476734
   ],
   Cell[
    CellGroupData[
@@ -216,37 +140,134 @@ Notebook[
      Cell[
       "Related Links",
       "GuideRelatedLinksSection",
-      CellID -> 41540409
+      CellID -> 186602967
      ],
      Cell[
       TextData[
        ButtonBox[
-        "https://github.com/WolframResearch/PacletCICD-Examples-Sample",
+        "Wolfram Technology Conference 2022",
         BaseStyle -> "Hyperlink",
         ButtonData -> {
          URL[
-          "https://github.com/WolframResearch/PacletCICD-Examples-Sample"
+          "https://www.wolfram.com/events/technology-conference/2022"
          ],
          None
         }
        ]
       ],
       "GuideRelatedLinks",
-      CellID -> 198729364
+      CellID -> 149187524
      ],
      Cell[
       TextData[
        ButtonBox[
-        "https://github.com/WolframResearch/PacletCICD",
+        "PacletCICD | Wolfram Language Paclet Repository",
+        BaseStyle -> "Hyperlink",
+        ButtonData -> {
+         URL[
+          "https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/PacletCICD"
+         ],
+         None
+        },
+        ButtonNote -> "https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/PacletCICD"
+       ]
+      ],
+      "GuideRelatedLinks",
+      CellID -> 59367280
+     ],
+     Cell[
+      TextData[
+       ButtonBox[
+        "PacletCICD | GitHub",
         BaseStyle -> "Hyperlink",
         ButtonData -> {
          URL["https://github.com/WolframResearch/PacletCICD"],
          None
-        }
+        },
+        ButtonNote -> "https://github.com/WolframResearch/PacletCICD"
        ]
       ],
       "GuideRelatedLinks",
-      CellID -> 79493166
+      CellID -> 401143295
+     ],
+     Cell[
+      TextData[
+       ButtonBox[
+        "SamplePaclet | GitHub",
+        BaseStyle -> "Hyperlink",
+        ButtonData -> {URL["https://github.com/rhennigan/SamplePaclet"], None},
+        ButtonNote -> "https://github.com/rhennigan/SamplePaclet"
+       ]
+      ],
+      "GuideRelatedLinks",
+      CellID -> 905374986
+     ]
+    },
+    Open
+   ]
+  ],
+  Cell[
+   CellGroupData[
+    {
+     Cell["Metadata", "MetadataSection", CellID -> 397981566],
+     Cell[
+      TextData[
+       {
+        "New in: ",
+        Cell["", "HistoryData", CellTags -> "New"],
+        " | Modified in: ",
+        Cell[" ", "HistoryData", CellTags -> "Modified"],
+        " | Obsolete in: ",
+        Cell[" ", "HistoryData", CellTags -> "Obsolete"]
+       }
+      ],
+      "History",
+      CellID -> 161940669
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell[
+         "Categorization",
+         "CategorizationSection",
+         CellID -> 193346993
+        ],
+        Cell[
+         "Guide",
+         "Categorization",
+         CellLabel -> "Entity Type",
+         CellID -> 9827872
+        ],
+        Cell[
+         "Wolfram/SamplePaclet",
+         "Categorization",
+         CellLabel -> "Paclet Name",
+         CellID -> 70190589
+        ],
+        Cell[
+         "Wolfram`SamplePaclet`",
+         "Categorization",
+         CellLabel -> "Context",
+         CellID -> 239348175
+        ],
+        Cell[
+         "Wolfram/SamplePaclet/guide/SampleGuide",
+         "Categorization",
+         CellLabel -> "URI",
+         CellID -> 809623026
+        ]
+       },
+       Open
+      ]
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell["Keywords", "KeywordsSection", CellID -> 155905138],
+        Cell["XXXX", "Keywords", CellID -> 662730104]
+       },
+       Closed
+      ]
      ]
     },
     Open
@@ -255,25 +276,25 @@ Notebook[
  },
  WindowStatusArea -> Automatic,
  TaggingRules -> {
+  "WelcomeScreenSettings" -> {"FEStarting" -> False},
   "InformationPopupMenuItemAdded" -> True,
-  "Author" -> "rhennigan",
-  "CreationDate" -> "04-08-2022 11:39:02",
+  "Paclet" -> "Wolfram/SamplePaclet",
   "NotebookIndexQ" -> True,
   "NotebookLastIndexed" ->
    DateObject[
-    {2022, 4, 8, 12, 45, 31.678},
+    {2022, 10, 16, 13, 14, 23.447},
     "Instant",
     "Gregorian",
     -4.0
    ],
-  "NotebookUUID" -> "466e6f27-4930-4efa-8001-80080d608140"
+  "NotebookUUID" -> "fdfe3688-7ffb-452e-8da0-fad0a663f734"
  },
- FrontEndVersion -> "13.0 for Microsoft Windows (64-bit) (January 26, 2022)",
+ FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
  StyleDefinitions ->
   FrontEnd`FileName[
    {"Wolfram"},
    "GuidePageStylesExt.nb",
    CharacterEncoding -> "UTF-8"
   ],
- ExpressionUUID -> "466e6f27-4930-4efa-8001-80080d608140"
+ ExpressionUUID -> "fdfe3688-7ffb-452e-8da0-fad0a663f734"
 ]

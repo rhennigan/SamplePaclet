@@ -1,17 +1,10 @@
-BeginPackage["SamplePublisher`SamplePaclet2`"];
+BeginPackage[ "Wolfram`SamplePaclet`" ];
 
-(* Declare your packages public symbols here. *)
+AddOne::usage = "AddOne[x] adds one to x.";
 
-AddOne;
+Begin[ "`Private`" ];
 
-Begin["`Private`"];
+AddOne[ x_ ] := x + 1;
 
-(* Define your public and private symbols here. *)
-
-AddOne[x_] := x + 1;
-
-If[a,b,b]
-
-End[]; (* End `Private` *)
-
-EndPackage[];
+End[ ];
+EndPackage[ ];

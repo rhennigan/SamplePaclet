@@ -1,5 +1,5 @@
 VerificationTest[
-    Needs[ "SamplePublisher`SamplePaclet2`" ],
+    Needs[ "Wolfram`SamplePaclet`" ],
     Null,
     TestID -> "Arithmetic-Initialization"
 ]
