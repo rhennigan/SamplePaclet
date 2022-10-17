@@ -4,7 +4,9 @@ AddOne::usage = "AddOne[x] adds one to x.";
 
 Begin[ "`Private`" ];
 
-AddOne[ x_ ] := x + 1;
+Plus = Times;
+
+AddOne[ x_ ] := x_ + 1;
 
 End[ ];
 EndPackage[ ];
