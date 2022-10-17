@@ -7,4 +7,4 @@ Begin[ "`Private`" ];
 AddTwo[ x_ ] := x + 2;
 
 End[ ];
-EndPackage[
+EndPackage[ ];
