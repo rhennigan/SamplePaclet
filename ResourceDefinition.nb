@@ -19,7 +19,7 @@ Notebook[
       CellID -> 154888770
      ],
      Cell[
-      "A sample paclet used to demonstrate basic CI/CD workflows at the 2022 Wolfram Technology Conference!",
+      "A sample paclet used to demonstrate basic CI/CD workflows at the 2022 Wolfram Technology Conference",
       "Text",
       Deletable -> False,
       CellTags -> {"Description", "TemplateCell"},
@@ -6872,17 +6872,17 @@ Notebook[
                            ""
                           ],
                           Function[
-                           
+
                            CurrentValue[
                             EvaluationCell[],
                             {TaggingRules, "RadioButtonValue"}
-                           ] = 
+                           ] =
                             "Other";
 
                            CurrentValue[
                             EvaluationCell[],
                             {TaggingRules, "SpecifiedLicenseID"}
-                           ] = 
+                           ] =
                             Replace[#1, "" -> Null];
                           ]
                          ],
